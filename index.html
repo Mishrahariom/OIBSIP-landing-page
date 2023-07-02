@@ -1,296 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./img/logo-final-transperrant-black-theme-3-1.png">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
-    <header class="container header">
-      <nav class="nav">
-        <div class="logo">
-          <h2>TECHNOHACKS</h2>
-        </div>
 
-        <div class="nav_menu" id="nav_menu">
-          <button class="close_btn" id="close_btn">
-            <i class="ri-close-fill"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./img/logo-final-transperrant-black-theme-3-1.png">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<header class="container header">
+  <nav class="nav">
+    <div class="logo">
+      <h2>TECHNOHACKS</h2>
+    </div>
+
+    <div class="nav_menu" id="nav_menu">
+      <button class="close_btn" id="close_btn">
+        <i class="ri-close-fill"></i>
+      </button>
+
+      <ul class="nav_menu_list">
+        <li class="nav_menu_item">
+          <a href="#" class="nav_menu_link">Home</a>
+        </li>
+        <li class="nav_menu_item">
+          <a href="#" class="nav_menu_link">about</a>
+        </li>
+        <li class="nav_menu_item">
+          <a href="#" class="nav_menu_link">Courses</a>
+        </li>
+        <li class="nav_menu_item">
+          <a href="#" class="nav_menu_link">internships</a>
+        </li>
+      </ul>
+    </div>
+
+    <button class="toggle_btn" id="toggle_btn">
+      <i class="ri-menu-line"></i>
+    </button>
+  </nav>
+</header>
+
+<section class="wrapper">
+  <div class="container">
+    <div class="grid-cols-2">
+      <div class="grid-item-1">
+        <h1 class="main-heading">
+          Welcome to <span>technohacks.</span>
+          <br />
+          Develop anything.
+        </h1>
+        <p class="info-text">
+          We provide top-notch IT training and cutting-edge products to help businesses and individuals stay ahead in
+          the ever-evolving tech landscape.
+        </p>
+
+        <div class="btn_wrapper">
+          <button class="btn view_more_btn">
+            Internships <i class="ri-arrow-right-line"></i>
           </button>
 
-          <ul class="nav_menu_list">
-            <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">Home</a>
-            </li>
-            <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">about</a>
-            </li>
-            <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">Courses</a>
-            </li>
-            <li class="nav_menu_item">
-              <a href="#" class="nav_menu_link">internships</a>
-            </li>
-          </ul>
-        </div>
-
-        <button class="toggle_btn" id="toggle_btn">
-          <i class="ri-menu-line"></i>
-        </button>
-      </nav>
-    </header>
-
-    <section class="wrapper">
-      <div class="container">
-        <div class="grid-cols-2">
-          <div class="grid-item-1">
-            <h1 class="main-heading">
-              Welcome to <span>technohacks.</span>
-              <br />
-              Develop anything.
-            </h1>
-            <p class="info-text">
-              We provide top-notch IT training and cutting-edge products to help businesses and individuals stay ahead in the ever-evolving tech landscape. 
-            </p>
-
-            <div class="btn_wrapper">
-              <button class="btn view_more_btn">
-                Internships <i class="ri-arrow-right-line"></i>
-              </button>
-
-              <button class="btn documentation_btn">Join Us </button>
-            </div>
-          </div>
-          <div class="grid-item-2">
-            <div class="team_img_wrapper">
-              <img src="./img/Minimal Elegant Circle Badge Creative Studio Brand Logo.png" alt="team-img" />
-            </div>
-          </div>
+          <button class="btn documentation_btn">Join Us </button>
         </div>
       </div>
-    </section>
-
-    <section class="wrapper">
-      <div class="container" data-aos="fade-up" data-aos-duration="1000">
-        <div class="grid-cols-3">
-          <div class="grid-col-item">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
-            </div>
-            <div class="featured_info">
-              <span>Trainings & Internships </span>
-              <p>
-                Unlock your potential with our comprehensive IT training and internship programs, designed for students and working professionals to enhance their skills and advance their careers.
-              </p>
-            </div>
-          </div>
-          <div class="grid-col-item">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
-                />
-              </svg>
-            </div>
-            <div class="featured_info">
-              <span>Software Development</span>
-              <p>
-                Accelerate your digital transformation with our comprehensive software development solutions tailored to your business needs.
-              </p>
-            </div>
-          </div>
-
-          <div class="grid-col-item">
-            <div class="icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                />
-              </svg>
-            </div>
-            <div class="featured_info">
-              <span>Digital Marketing</span>
-              <p>
-                Experience exponential growth in your online presence through our expert digital marketing services.
-              </p>
-            </div>
-          </div>
+      <div class="grid-item-2">
+        <div class="team_img_wrapper">
+          <img src="./img/Minimal Elegant Circle Badge Creative Studio Brand Logo.png" alt="team-img" />
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+<section class="wrapper">
+  <div class="container" data-aos="fade-up" data-aos-duration="1000">
+    <div class="grid-cols-3">
+      <div class="grid-col-item">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </div>
+        <div class="featured_info">
+          <span>Trainings & Internships </span>
+          <p>
+            Unlock your potential with our comprehensive IT training and internship programs, designed for students and
+            working professionals to enhance their skills and advance their careers.
+          </p>
+        </div>
+      </div>
+      <div class="grid-col-item">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z" />
+          </svg>
+        </div>
+        <div class="featured_info">
+          <span>Software Development</span>
+          <p>
+            Accelerate your digital transformation with our comprehensive software development solutions tailored to
+            your business needs.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid-col-item">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+          </svg>
+        </div>
+        <div class="featured_info">
+          <span>Digital Marketing</span>
+          <p>
+            Experience exponential growth in your online presence through our expert digital marketing services.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
 <div class="footer_section">
 
-          <div class="subscriber_head">
-  
-              <h1 id="free_daily_updates">For Daily Updates</h1>
-  
-              
-              <form action="" class="subscriber_search_box" method="get"  >
-                  
-                  <input class="subscriber_search_bar" type="text" placeholder="Hariom mishra  ">
-  
-             
-                  <button class="subscriber_button" type="submit" >Subscribe</button>
-          </form>
-  
-          </div>
+  <div class="subscriber_head">
 
-  
-          <div class="subscriber_mid">
-  
-          <div class="first_para">
-              <div class="footer_logo"><h1>Hariom Mishra </h1></div>
-                      <div class="footer_para">
-                          
-                          <h3 id="footer_first_head">Front-end Developer</h3>
-                          <br>
-                 
-                          <h5>mishrahariom2708@gmail.com</h5>
-                          <!-- <h5>www.Devlop-Security.com</h5> -->
-                     
-                      </div>
-  
-                 
-                  </div>
-            
-                  
-               
-                  <div class = "vertical2"></div>   <div class = "horizontal"></div> 
-                  <div class="middle_para">
-                  
-                      <div class="footer_About">
-                          <h4 class="footer_About_para"><a class="footer_About_head" href="#">Service</a></h5>
-                          <!-- <h5 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h5>
-                          <h5 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h5>
-                          <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5>
-                          <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5> -->
-  
-  
-                      </div>
-  
-                      <div class="footer_About">
-                              <h4 class="footer_About_para"><a class="footer_About_head" href="#">Internships</a></h5>
-                              <!-- <h5 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h5>
-                              <h5 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h5>
-                              <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5>
-                              <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5> -->
-                      </div>
-  
-                      <div class="footer_About">
-                          <h4 class="footer_About_para"><a class="footer_About_head" href="#">Courses</a></h5>
-                          <!-- <h5 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h5>
-                          <h5 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h5>
-                          <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5>
-                          <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5> -->
-  
-  
-                      </div>
-  
-                      <div class="footer_About">
-                              <h4 class="footer_About_para"><a class="footer_About_head" href="#">Contact Us</a></h5>
-                              <!-- <h5 class="footer_About_para"><a class="footer_About_links" href="">Terms of use</a></h5>
-                              <h5 class="footer_About_para"><a class="footer_About_links" href="">Privacy Policy</a></h5>
-                              <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5>
-                              <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5> -->
-                      </div>
-  
-  
-                  </div>
-  
-                  
-  
-                  
-                  <div class = "vertical"></div><div class = "horizontal2"></div> 
-  
-              <div class="last_para">
-  
-                  <div class="footer_last" >
-                    <img class="techno" style="width: 200px; margin-left: 100px;"  src="./img/logo-final-transperrant-black-theme-3-1.png" alt="">
-                      <!-- <p class="quick_signup">Quick Signup</p> -->
-                      <!-- <h5 id="free_daily_updates">This 3 Minute Will Take Your Newslatter To Harry Potter House So Dont Forget To Subscribe</h5> -->
-                      <!-- <form action="" class="footer_form_mid" method="get"  >
-                  
-                          <input class="footer_mid_subscribe_bar" type="text" placeholder="Search for datasets, APIs, ">
-          
-                     
-                          <!- <button class="footer_mid_subscriber_button" type="submit" >Subscribe</button> -->
-                  <!-- </form> -->
-                  </div>
-  
-                  <!-- <div class="contacts">
-                      <h4>Connect:
-                    
-                      </h4>
-                      <div class="icon_section">
-                      <a class="footer_mid_icons" href=""><i class="fab fa-twitter footer_mid_icons_inner"></i></a>
-                      <a class="footer_mid_icons" href=""><i class="fab fa-instagram footer_mid_icons_inner"></i></a>
-                      <a class="footer_mid_icons" href=""><i class="fab fa-linkedin footer_mid_icons_inner"></i></a>
-                      <a class="footer_mid_icons" href=""><i class="fab fa-youtube footer_mid_icons_inner"></i></a>
-                      <a class="footer_mid_icons" href=""><i class="fab fa-twitter footer_mid_icons_inner"></i></a>
-                  </div> -->
-                  </div>
-  
-              </div>
-  
-          </div>
-      <div class="subscriber_last">
-  
-  
-  
-          <div class="footer_logo_last"><h1>TECHNOHACKS</h1></div>
-          <div class = "vertical3"></div>
-          <div class = "footer_last_mid_para"><p id="unleash">By Hariom Mishra </p></div>
-          <div class = "footer_last_last_para">
-              <p class="copyright2">COPYRIGHT 2022 &copy; All right reserved</p>
-              <p class="copyright2">ALL Trademark are registered to their respective owners bros</p>
-          </div>
-  
-      </div>
-  
+    <h1 id="free_daily_updates">For Daily Updates</h1>
+
+
+    <form action="" class="subscriber_search_box" method="get">
+
+      <input class="subscriber_search_bar" type="text" placeholder="Hariom mishra  ">
+
+
+      <button class="subscriber_button" type="submit">Subscribe</button>
+    </form>
+
   </div>
 
-    <!-- ==== ANIMATE ON SCROLL JS CDN -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- ==== GSAP CDN ==== -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-    <!-- ==== SCRIPT.JS ==== -->
-    <script src="./script.js" defer></script>
-  </body>
+
+  <div class="subscriber_mid">
+
+    <div class="first_para">
+      <div class="footer_logo">
+        <h1>Hariom Mishra </h1>
+      </div>
+      <div class="footer_para">
+
+        <h3 id="footer_first_head">Front-end Developer</h3>
+        <br>
+
+        <h5>mishrahariom2708@gmail.com</h5>
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <div class="vertical2"></div>
+    <div class="horizontal"></div>
+    <div class="middle_para">
+
+      <div class="footer_About">
+        <h4 class="footer_About_para"><a class="footer_About_head" href="#">Service</a></h5>
+
+
+      </div>
+
+      <div class="footer_About">
+        <h4 class="footer_About_para"><a class="footer_About_head" href="#">Internships</a></h5>
+          <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5> -->
+      </div>
+
+      <div class="footer_About">
+        <h4 class="footer_About_para"><a class="footer_About_head" href="#">Courses</a></h5>
+
+
+      </div>
+
+      <div class="footer_About">
+        <h4 class="footer_About_para"><a class="footer_About_head" href="#">Contact Us</a></h5>
+          <h5 class="footer_About_para"><a class="footer_About_links" href="">Risk Of Factor</a></h5>
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="vertical"></div>
+    <div class="horizontal2"></div>
+
+    <div class="last_para">
+
+      <div class="footer_last">
+        <img class="techno" style="width: 200px; margin-left: 100px;"
+          src="./img/logo-final-transperrant-black-theme-3-1.png" alt="">
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>
+<div class="subscriber_last">
+
+
+
+  <div class="footer_logo_last">
+    <h1>TECHNOHACKS</h1>
+  </div>
+  <div class="vertical3"></div>
+  <div class="footer_last_mid_para">
+    <p id="unleash">By Hariom Mishra </p>
+  </div>
+  <div class="footer_last_last_para">
+    <p class="copyright2">COPYRIGHT 2022 &copy; All right reserved</p>
+    <p class="copyright2">ALL Trademark are registered to their respective owners bros</p>
+  </div>
+
+</div>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+<script src="./script.js" defer></script>
+</body>
+
 </html>
